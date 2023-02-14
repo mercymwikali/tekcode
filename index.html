@@ -21,68 +21,52 @@
                     <li><a href="#about">About Us</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Contact Us</a></li>
-                    <li><button id="login-btn" class="login-btn">Login</button></li>
+                    <li><a href=#login-form id="#login-btn" class="login-btn">Login</button></li>
                 </ul>
             </nav>
         </div>
         <div class="stuff flex">
             <div class="main-content">
-                <h2>Web Design &<br><p id="header">Development</p><br> Course</h2>
-                <p class="par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt neque
-                    expedita atque eveniet <br> quis nesciunt. Quos nulla vero consequuntur, fugit nemo ad delectus
-                    <br> a quae totam ipsa illum minus laudantium?
+                <h2>Web <p id="header"> Design</p> &
+                    <p id="header"> Development</p><br>
+                    Course
+                </h2>
+                <p class="par">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Sunt neque expedita atque
+                    eveniet quis nesciunt.<br> Quos nulla vero consequuntur, fugit nemo ad delectus
+                    a quae totam ipsa illum minus laudantium?
                 </p>
                 <button class="joinus">Join Us</button>
             </div>
-            <div id="login-form" class="login-page">
-                <div class="form-box">
-                    <div class="button-box">
-                        <div id="btn" class="btn">
-                            <button id="logpage-btn" type="button" class="toggle-btn">Login</button>
-                            <button id="reg-btn" type="button" class="toggle-btn">Register</button>
+            <section>
+                <div id="login-form" class="login-page">
+                    <div class="form-box">
+                        <div class="button-box">
+                            <div id="btn" class="btn">
+                                <button id="logpage-btn" type="button" class="toggle-btn">Login</button>
+                                <button id="reg-btn" type="button" class="toggle-btn">Register</button>
+                            </div>
+                            <!-- Creating the Login Page -->
+                            <form id="login" class="login-inputs">
+                                <input type="email" class="input-field" placeholder="Email" required>
+                                <input type="password" class="input-field" placeholder="Enter Passsword" required>
+                                <input type="checkbox" class="checkbox"> <span>Remember Passsword</span>
+                                <button type="submit" class="submit-btn">Login</button>
+                            </form>
+                            <!-- Creating the Register page -->
+                            <form id="register" class="Register-inputs">
+                                <input type="text" class="input-field" placeholder="First Name" required>
+                                <input type="text" class="input-field" placeholder="Last Name" required>
+                                <input type="email" class="input-field" placeholder="Email" required>
+                                <input type="password" class="input-field" placeholder="Enter Passsword" required>
+                                <input type="password" class="input-field" placeholder="Confirm Passsword" required>
+                                <input type="checkbox" class="checkbox"><span> I agree to the Terms and
+                                    Conditions</span>
+                                <button type="submit" class="submit-btn">Register</button>
+                            </form>
                         </div>
-                        <!-- Creating the Login Page -->
-                        <form id="login" class="login-inputs">
-                            <input type="email" class="input-field" placeholder="Email" required>
-                            <input type="password" class="input-field" placeholder="Enter Passsword" required>
-                            <input type="checkbox" class="checkbox"> <span>Remember Passsword</span>
-                            <button type="submit" class="submit-btn">Login</button>
-                        </form>
-                        <!-- Creating the Register page -->
-                        <form id="register" class="Register-inputs">
-                            <input type="text" class="input-field" placeholder="First Name" required>
-                            <input type="text" class="input-field" placeholder="Last Name" required>
-                            <input type="email" class="input-field" placeholder="Email" required>
-                            <input type="password" class="input-field" placeholder="Enter Passsword" required>
-                            <input type="password" class="input-field" placeholder="Confirm Passsword" required>
-                            <input type="checkbox" class="checkbox"><span> I agree to the Terms and Conditions</span>
-                            <button type="submit" class="submit-btn">Register</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
+            </section>
+
         </div>
-        <section class="abt-us" id="about">
-            <div class="abt-header">
-                <h2>About <p class="abt"> Us</p></h2>
-            </div>
-            <div class="abt-cont flex">
-                <div class="image">
-                    <img src="./images/mask.svg" class="change-color" alt=""/>
-                </div>
-                <div class="abt-content">
-                    <p class="abt-par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt neque
-                        expedita atque eveniet <br> quis nesciunt. Quos nulla vero consequuntur, fugit nemo ad delectus
-                        <br> a quae totam ipsa illum minus laudantium?
-                    </p>
-                    <p class="abt-par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt neque
-                        expedita atque eveniet <br> quis nesciunt. Quos nulla vero consequuntur, fugit nemo ad delectus
-                        <br> a quae totam ipsa illum minus laudantium?
-                    </p>
-                    <button class="learn">Learn More</button>
-                </div>
-            </div>
-        </section>
 
     </div>
 
